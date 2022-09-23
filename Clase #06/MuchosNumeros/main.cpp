@@ -15,12 +15,17 @@ int* crearArray(int cantidad)
 
 int main() {
   ArrayNumerosDinamicos numeros;
+
+  cout << sizeof(numeros) << endl;
   
   numeros.agregar(5);
   numeros.agregar(3);
   numeros.agregar(4);
   numeros.agregar(77);
 
+  cout << sizeof(numeros) << endl;
+
+  
   for (int i = 0; i < numeros.getTamanio(); i++)
   {
     cout << numeros.obtener(i) << endl;

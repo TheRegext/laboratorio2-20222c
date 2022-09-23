@@ -43,12 +43,15 @@ int main() {
       case 2:
         // mostrar total recaudado
         cout << "Recaudacion total: " << archivoVenta.totalRecaudado() << endl;
+
         break;
       case 0:
         cout << "Gracias por usar el programa" << endl;
+
         break;
       default:
         cout << "Opcion incorrecta" << endl;
+
         break;
     }
     
