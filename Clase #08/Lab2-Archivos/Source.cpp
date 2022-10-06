@@ -61,8 +61,10 @@ int main() {
       {
         Venta venta = archivoVenta.obtenerVenta(i);
 
-        cout << "------------------" << endl;
-        venta.mostrar();
+        if (venta.getTotal() > 25000) {
+          cout << "------------------" << endl;
+          venta.mostrar();
+        }
       }
 
     }
